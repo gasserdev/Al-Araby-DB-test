@@ -69,7 +69,10 @@
     "password": 123456785,
     "role": "teacher",
     "section": "فزياء",
-    "classes": ["1A", "2A"],
+    "classes": [
+      { "name": "1A", "year": "الأولى" },
+      { "name": "2A", "year": "الثانية" }
+    ],
     "isHOD": false
   },
   {
@@ -78,7 +81,10 @@
     "password": 123456786,
     "role": "teacher",
     "section": "اداب",
-    "classes": ["2B", "3A"],
+    "classes": [
+      { "name": "2B", "year": "الثانية" },
+      { "name": "3A", "year": "الثالثة" }
+    ],
     "isHOD": true
   },
   {
@@ -177,7 +183,9 @@
     "password": 12344321,
     "role": "teacher",
     "section": "اداب",
-    "classes": ["1B"],
+    "classes": [
+      { "name": "1B", "year": "الأولى" }
+    ],
     "isHOD": false
   },
   {
@@ -186,7 +194,9 @@
     "password": 22334455,
     "role": "teacher",
     "section": "فزياء",
-    "classes": ["3B"],
+    "classes": [
+      { "name": "3B", "year": "الثالثة" }
+    ],
     "isHOD": true
   }
 ]
