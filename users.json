@@ -2,11 +2,12 @@
   {
     "id": 1,
     "fullname": "كريم محمد",
-    "password": 123456789,
+    "password": "123456789",
     "role": "student",
     "year": "الثانية",
     "section": "لوجيستيات",
     "class": "2A",
+    "banned": false,
     "grades": {
       "العربية": 92,
       "الإنجليزية": 88,
@@ -24,11 +25,12 @@
   {
     "id": 2,
     "fullname": "جاسر زايد",
-    "password": 1234567890,
+    "password": "1234567890",
     "role": "student",
     "year": "الثانية",
     "section": "اداب",
     "class": "2B",
+    "banned": false,
     "grades": {
       "العربية": 95,
       "الإنجليزية": 91,
@@ -45,11 +47,12 @@
   {
     "id": 3,
     "fullname": "مالك عمرو",
-    "password": 123456789002,
+    "password": "123456789002",
     "role": "student",
     "year": "الأولى",
     "section": "فزياء",
     "class": "1A",
+    "banned": false,
     "grades": {
       "العربية": 87,
       "الإنجليزية": 90,
@@ -66,41 +69,45 @@
   {
     "id": 4,
     "fullname": "محمد صلاح",
-    "password": 123456785,
+    "password": "123456785",
     "role": "teacher",
     "section": "فزياء",
+    "banned": false,
+    "isHOD": false,
     "classes": [
       { "name": "1A", "year": "الأولى" },
       { "name": "2A", "year": "الثانية" }
-    ],
-    "isHOD": false
+    ]
   },
   {
     "id": 5,
     "fullname": "محمد عادل",
-    "password": 123456786,
+    "password": "123456786",
     "role": "teacher",
     "section": "اداب",
+    "banned": false,
+    "isHOD": true,
     "classes": [
       { "name": "2B", "year": "الثانية" },
       { "name": "3A", "year": "الثالثة" }
-    ],
-    "isHOD": true
+    ]
   },
   {
     "id": 6,
     "fullname": "أحمد حاتم",
-    "password": 1234567877,
-    "role": "manager"
+    "password": "1234567877",
+    "role": "manager",
+    "banned": false
   },
   {
     "id": 7,
     "fullname": "لامار حسن",
-    "password": 987654321,
+    "password": "987654321",
     "role": "student",
     "year": "الثالثة",
     "section": "اداب",
     "class": "3A",
+    "banned": false,
     "grades": {
       "العربية": 89,
       "الإنجليزية": 85,
@@ -117,11 +124,12 @@
   {
     "id": 8,
     "fullname": "نور أحمد",
-    "password": 1122334455,
+    "password": "1122334455",
     "role": "student",
     "year": "الثانية",
     "section": "فزياء",
     "class": "2A",
+    "banned": false,
     "grades": {
       "العربية": 85,
       "الإنجليزية": 80,
@@ -138,11 +146,12 @@
   {
     "id": 9,
     "fullname": "إياد طارق",
-    "password": 9988776655,
+    "password": "9988776655",
     "role": "student",
     "year": "الأولى",
     "section": "اداب",
     "class": "1B",
+    "banned": false,
     "grades": {
       "العربية": 93,
       "الإنجليزية": 89,
@@ -159,11 +168,12 @@
   {
     "id": 10,
     "fullname": "لُجين عمر",
-    "password": 5566778899,
+    "password": "5566778899",
     "role": "student",
     "year": "الثالثة",
     "section": "فزياء",
     "class": "3B",
+    "banned": false,
     "grades": {
       "العربية": 88,
       "الإنجليزية": 91,
@@ -180,23 +190,25 @@
   {
     "id": 11,
     "fullname": "سارة مصطفى",
-    "password": 12344321,
+    "password": "12344321",
     "role": "teacher",
     "section": "اداب",
+    "banned": false,
+    "isHOD": false,
     "classes": [
       { "name": "1B", "year": "الأولى" }
-    ],
-    "isHOD": false
+    ]
   },
   {
     "id": 12,
     "fullname": "يوسف محمود",
-    "password": 22334455,
+    "password": "22334455",
     "role": "teacher",
     "section": "فزياء",
+    "banned": false,
+    "isHOD": true,
     "classes": [
       { "name": "3B", "year": "الثالثة" }
-    ],
-    "isHOD": true
+    ]
   }
 ]
