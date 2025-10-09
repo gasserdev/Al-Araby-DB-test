@@ -74,6 +74,7 @@
     "section": "فزياء",
     "banned": false,
     "isHOD": false,
+    "rating": 4.2,
     "classes": [
       { "name": "1A", "year": "الأولى" },
       { "name": "2A", "year": "الثانية" }
@@ -87,6 +88,7 @@
     "section": "اداب",
     "banned": false,
     "isHOD": true,
+    "rating": 4.8,
     "classes": [
       { "name": "2B", "year": "الثانية" },
       { "name": "3A", "year": "الثالثة" }
@@ -195,6 +197,7 @@
     "section": "اداب",
     "banned": false,
     "isHOD": false,
+    "rating": 4.4,
     "classes": [
       { "name": "1B", "year": "الأولى" }
     ]
@@ -207,6 +210,7 @@
     "section": "فزياء",
     "banned": false,
     "isHOD": true,
+    "rating": 4.9,
     "classes": [
       { "name": "3B", "year": "الثالثة" }
     ]
